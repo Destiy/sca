@@ -1,6 +1,6 @@
 package com.matree.consumer.configuration;
 
-import com.matree.ribbon.configuration.RibbonConfiguration;
+import com.matree.configuration.ribbon.RibbonConfiguration;
 import org.springframework.cloud.netflix.ribbon.RibbonClients;
 import org.springframework.context.annotation.Configuration;
 

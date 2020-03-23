@@ -28,7 +28,7 @@ import java.util.stream.Collectors;
  * @create 2020-03-22 17:43
  */
 @Slf4j
-public class NaCosSameClusterWeightedRule extends AbstractLoadBalancerRule {
+public class NacosSameClusterWeightedRule extends AbstractLoadBalancerRule {
 
     @Autowired
     private NacosDiscoveryProperties nacosDiscoveryProperties;

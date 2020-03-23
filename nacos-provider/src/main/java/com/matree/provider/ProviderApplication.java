@@ -19,13 +19,14 @@ public class ProviderApplication {
         SpringApplication.run(ProviderApplication.class, args);
     }
 
-    @RestController
-    class EchoController {
 
-        @GetMapping("/echo/{str}")
-        public String echo(@PathVariable("str") String str){
-            System.out.println(str);
-            return str;
-        }
+}
+@RestController
+class EchoController {
+
+    @GetMapping("/echo/{str}")
+    public String echo(@PathVariable("str") String str){
+        System.out.println(str);
+        return str;
     }
 }
