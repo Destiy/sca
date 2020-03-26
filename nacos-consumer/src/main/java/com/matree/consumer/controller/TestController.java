@@ -40,8 +40,7 @@ public class TestController {
 //                "http://nacos-provider/echo/{str}",
 //                String.class, "1234"
 //        );
-        String echo = consumerFeignClient.echo(str);
-        return echo;
+        return consumerFeignClient.echo(str);
 
     }
 }

@@ -23,7 +23,7 @@
         </dependency>
 
         <dependency>
-            <groupId>com.alibaba.cloud</groupId>
+            <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
 
